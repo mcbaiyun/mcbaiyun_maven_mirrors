@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <mirrors>
+        <mirror><!--阿里云镜像-->
+            <id>aliyunmaven</id>
+            <mirrorOf>*</mirrorOf>
+            <name>阿里云公共仓库</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </mirror>
+        <mirror><!--华为云镜像-->
+            <id>huaweicloud</id>
+            <mirrorOf>*</mirrorOf>
+            <url>https://repo.huaweicloud.com/repository/maven/</url>
+        </mirror>
+        <mirror><!--腾讯云镜像-->
+            <id>nexus-tencentyun</id>
+            <mirrorOf>*</mirrorOf>
+            <name>Nexus tencentyun</name>
+            <url>https://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+        </mirror>
+        <mirror><!--网易镜像-->
+            <id>nexus-163</id>
+            <mirrorOf>*</mirrorOf>
+            <name>Nexus 163</name>
+            <url>https://mirrors.163.com/maven/repository/maven-public/</url>
+        </mirror>
+        <mirror><!--清华大学镜像-->
+            <id>Tsinghua</id>
+            <url>https://repo.maven.apache.org/maven2/</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+        <mirror><!--南京大学镜像-->
+            <id>nju_mirror</id>
+            <mirrorOf>*</mirrorOf>
+            <url>https://repo.nju.edu.cn/repository/maven-public/</url>
+        </mirror>
+        <mirror><!--上海交通大学镜像-->
+            <id>sjtugmaven</id>
+            <name>sjtug maven</name>
+            <url>https://mirrors.sjtug.sjtu.edu.cn/maven-central/</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+    </mirrors>
+</settings>
